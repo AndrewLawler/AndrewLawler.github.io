@@ -1,0 +1,47 @@
+#HomeImage {
+    width: 100%;
+    height: 810px;
+}
+
+@media screen and (min-width: 200px) {
+    #HomeImage {
+      height: 200px;
+      width: 100%;
+
+    }
+  }
+
+  @media screen and (min-width: 1279px) {
+    #HomeImage {
+      height: 450px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1500px) {
+    #HomeImage {
+      height: 630px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 1660px) {
+    #HomeImage {
+      height: 780px;
+      width: 100%;
+    }
+  }
+
+  @media  screen and (min-width: 1850px) {
+    #HomeImage {
+      height: 810px;
+      width: 100%;
+    }
+}
+
+
+
+#Footer1 {
+    width: 100%;
+}
+

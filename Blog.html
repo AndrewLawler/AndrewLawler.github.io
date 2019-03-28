@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+      <title>Andrew Lawler - Blog</title>
+    </head>
+
+    <body class="white">
+  
+        <nav>
+            <div class="nav-wrapper grey darken-4">
+              <img src="Logo.png" class="brand-logo" style="padding: 8px" height="60px" width="65px">
+              <a href="Logo.png" class="brand-logo" style="padding-left: 10px"></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <ul class="sidenav grey darken-4" id="mobile-demo">
+            <li><a style="color: white" href="index.html">Home</a></li>
+            <li><a style="color: white" href="AboutMe.html">About Me</a></li>
+            <li><a style="color: white" href="Projects.html">Projects</a></li>
+            <li><a style="color: white" href="Blog.html">Blog</a></li>
+          </ul>
+     
+        <div class="container" id="section2">
+            <div class="center-align">
+                <h1>Blog</h1>
+                <p> Welcome to my Dev blog! Here you will find me talking about anything and everything. </p>
+            </div>
+            <div class="left-align">
+                <p style="text-align: center"><b><u>Designing my Website and implementing it using AWS</u></b></p>
+                <p>
+                    When I originally had the idea of having a website I didn't think I would have managed to get it up and running so quickly. Within a week of having the idea I had already made the website 
+                    and had it working on a local host. Once ready to be deployed I then looked at potential hosts. I looked at various
+                    businesses and then decided AWS was the one for me, it had a good environment for implementing the site and also really low prices which appeals to a student like me. 
+                    I chose AWS and the rest is history.
+                </p>
+                <p style="text-align: center">- 05/11/18 </p>
+
+
+
+
+
+
+
+                <p style="padding-bottom: 134px">More Posts to come in the future.</p>
+
+
+            </div>
+        </div>        
+
+        <div class="social" style="text-align: center; padding-top: 10px">
+            <a href="https:www.twitter.com/lawlerandrew_"><img src="twitter.png" alt="twitter logo" height="50px" width="50px"/></a>
+            <a href="https:www.instagram.com/andrew.lawler_"><img src="instagram.png" height="50px" width="50px"/></a>
+            <a href="https:www.github.com/AndrewLawler"><img src="github.png" height="50px" width="50px"/></a>
+            <a href="https://www.linkedin.com/in/andrewlawler-io/"><img src="linkedin.png" height="50px" width="50px"/></a>
+        </div>
+
+        <br> 
+        <footer class="page-footer grey darken-4">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Andrew Lawler</h5>
+                  <p class="grey-text text-lighten-4"> Software Development </p>
+                  <p><br><br>Hosted with AWS </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                    <li><a class="grey-text text-lighten-3" href="AboutMe.html">About Me</a></li>
+                    <li><a class="grey-text text-lighten-3" href="Projects.html">Projects</a></li>
+                    <li><a class="grey-text text-lighten-3" href="Blog.html">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+              <div class="container" stlye="padding-left: 5px"> 
+                <p style="padding-left: 12px"> Andrew Lawler 2019</p>
+              
+              </div>
+            </div>
+          </footer>
+
+              <script>
+                  $(document).ready(function(){
+                    $("a").on('click', function(event) {
+                      if (this.hash !== "") {
+                        event.preventDefault();
+                        var hash = this.hash;
+                        $('html, body').animate({
+                          scrollTop: $(hash).offset().top
+                        }, 800, function(){
+                          window.location.hash = hash;
+                        });
+                      } 
+                    });
+                  });
+                  </script>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      var elems = document.querySelectorAll('.sidenav');
+                      var instances = M.Sidenav.init(elems, options);
+                    });
+
+                    // Or with jQuery
+
+                    $(document).ready(function(){
+                      $('.sidenav').sidenav();
+                    });
+                  </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+  </html>
