@@ -4,17 +4,17 @@
 }
 
 #rowStyle {
-  width: 650px;
+  width: 50%;
 }
 
 @media screen and (min-width: 300px) {
     #HomeImage {
-      height: 160px;
+      height: 300px;
       width: 100%;
 
     }
     #rowStyle {
-      width: 350px;
+      width: 50%;
     }
   }
 
@@ -22,6 +22,9 @@
     #HomeImage {
       height: 450px;
       width: 100%;
+    }
+    #rowStyle {
+      width: 50%;
     }
   }
 
