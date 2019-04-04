@@ -7,7 +7,7 @@
   width: 50%;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 100px) {
     #HomeImage {
       height: 600px;
       width: 100%;
