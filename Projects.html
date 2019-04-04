@@ -2,6 +2,7 @@
   <html>
     <head>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="Style/Style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -13,8 +14,8 @@
   
         <nav>
             <div class="nav-wrapper grey darken-4">
-              <img src="Logo.png" class="brand-logo" style="padding: 8px" height="60px" width="65px">
-              <a href="Logo.png" class="brand-logo" style="padding-left: 10px"></a>
+              <a href="index.html"><img src="Images/Logo.png" class="brand-logo" style="padding: 8px" height="60px" width="65px"/></a>
+              <!---<a href="Images/Logo.png" class="brand-logo" style="padding-left: 10px"></a>-->
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html">Home</a></li>
@@ -36,33 +37,41 @@
             <div class="center-align">
                 <h1> Projects </h1>
                 <p>
-                    <br> Here you will find the projects i have been working on. For a more up to date look <br> into my projects please take a look at my
+                    <br> Here you will find the projects I have been working on. For a more up to date look <br> into my projects please take a look at my
                     <a href="https://www.github.com/AndrewLawler">GitHub Profile</a>!
                 </p>
 
                 <p> If you want to hear about what i'm working on everyday please <br> check out my <a href="https://www.twitter.com/lawlerandrew_">twitter</a> too! </p>
                 
-                <p><u>Use this menu to navigate through my projects</u></p>
+                <p><u>Use the menu below to navigate through my projects</u></p>
                 <p style="padding-top: 10px">
                   <a href="#JavaSection" style="padding-right: 10px">Java</a> 
                   <a href="#JavaScriptSection" style="padding-right: 10px">JavaScript</a>
                   <a href="#PythonSection" style="padding-right: 10px">Python</a>
                   <a href="#HTMLSection" style="padding-right: 10px">HTML</a>
                   <a href="#RubySection" style="padding-right: 10px">Ruby</a>
-                  <a href="#CSection" style="padding-right: px">C++</a>
+                  <a href="#CSection" style="padding-right: px">Assembly</a>
                 </p> 
-            </div>
+
+                
+            <p style="padding-bottom: 27px">
+                I'm always trying to learn new skill and expand the knowledge I already have. This means i'm <br>always working on a 
+                new project or trying to better an already existing project I have. <br>As all of my projects are posted on GitHub, please 
+                feel free to clone/fork my work <br> and add more to it. 
+            </p>
+        </div>
+        <div class="divider black"></div>
 
 
           <div class="center-align">
-                <h6 style="padding-top: 15px; padding-bottom: 15px" id="JavaSection"><u>Java</u></h6>    
+                <h6 style="padding-top: 27px; padding-bottom: 15px" id="JavaSection"><u>Java</u></h6>    
                 <br>
                 <div class="row">
                   <!--style="padding-left: 385px;"-->
                     <div class="col s12 m6">
                       <div class="card medium">
                         <div class="card-image">
-                          <img src="Number.png">
+                          <img src="Images/Number.png">
                         </div>
                         <div class="card-content" style="padding-top: 5px">
                           <b><u> Number Algorithm</u></b>
@@ -77,11 +86,11 @@
                     <div class="col s12 m6">
                         <div class="card medium">
                           <div class="card-image">
-                            <img src="Comp122.png">
+                            <img src="Images/Comp122.png">
                           </div>
                           <div class="card-content" style="padding-top: 5px">
                             <b><u> COMP-122 Assignment 1</u></b>
-                            <p> This was the first assignment i had for my Java module at University. This assignment taught us how to use inheritence to shorten our code.
+                            <p> This was the first assignment I had for my Java module at University. This assignment taught us how to use inheritence to shorten our code.
                             </p>
                           </div>
                           <div class="card-action grey darken-4">
@@ -95,10 +104,10 @@
                 <br>
                 <div class="row">
                     <!--style="padding-left: 385px;"-->
-                      <div class="col s6 offset-s3">
+                      <div class="col s6 push-s3" id="one">
                         <div class="card medium">
                           <div class="card-image">
-                            <img src="Todo List.png">
+                            <img src="Images/Todo List.png">
                           </div>
                           <div class="card-content" style="padding-top: 5px">
                             <b><u> React Todo App </u></b>
@@ -116,15 +125,14 @@
                 <br>
                 <div class="row">
                     <!--style="padding-left: 385px;"-->
-                      <div class="col s6 offset-s3">
+                      <div class="col s6 push-s3" id="one">
                         <div class="card medium">
                           <div class="card-image">
-                            <img src="Gym.png">
+                            <img src="Images/Gym.png">
                           </div>
                           <div class="card-content" style="padding-top: 5px">
                             <b><u> Gym Application</u></b>
-                            <p> I had an idea that i wanted to implement. This was only a quick project and something that was easy to implement. It simply allows you to create 
-                              randomised workouts to use.
+                            <p> This Python Application allows you to randomly generate workouts using a simple menu. You can also generate exercises for specific body parts too.
                             </p>
                           </div>
                           <div class="card-action grey darken-4">
@@ -141,12 +149,11 @@
                         <div class="col s12 m6">
                           <div class="card medium">
                             <div class="card-image">
-                              <img src="Web.jpg">
+                              <img src="Images/Web.jpg" height="195px">
                             </div>
-                            <div class="card-content" style="padding-top: 1px">
+                            <div class="card-content" style="padding-top: 5px">
                               <b><u> Personal Website </u></b>
-                              <p> 
-                                I wanted to learn more about HTML and CSS so i decided to build my own website. This website took around 2 days to make and it holds all my projects and information.
+                              <p> I wanted to learn more about HTML and CSS so I decided to build my own website. This website took around 2 days to make and it holds all my projects and information.
                               </p>
                             </div>
                             <div class="card-action grey darken-4">
@@ -158,7 +165,7 @@
                         <div class="col s12 m6">
                           <div class="card medium">
                             <div class="card-image">
-                              <img src="Discover.png">
+                              <img src="Images/Discover.png">
                             </div>
                             <div class="card-content" style="padding-top: 5px">
                               <b><u> Career Discover </u></b>
@@ -176,11 +183,11 @@
                 <br>
                 <div class="row">
                     <!--style="padding-left: 385px;"-->
-                      <div class="col s6 offset-s3">
+                      <div class="col s6 push-s3" id="one">
                         <!--make col s6 m6 when i add another-->
                         <div class="card medium">
                           <div class="card-image">
-                            <img src="Layout2.png">
+                            <img src="Images/Layout2.png">
                           </div>
                           <div class="card-content" style="padding-top: 5px">
                             <b><u> BlogStyl </u></b>
@@ -198,16 +205,15 @@
                 <h6 style="padding-top: 15px; padding-bottom: 15px" id="CSection"><u>C++/Assembly</u></h6>
                 <br>
                 <div class="row">
-                    <!--style="padding-left: 385px;"-->
-                      <div class="col s6 offset-s3"">
+                      <div class="col s6 push-s3">
                         <!--make col s6 m6 when i add another-->
                         <div class="card medium">
                           <div class="card-image">
-                            <img src="124.png">                        
+                            <img src="Images/124.png">                        
                           </div>
                           <div class="card-content" style="padding-top: 5px">
                               <b><u> COMP-124 Assignment 1</u></b>
-                            <p> This program was my submission for a University Assignment. This assignment tasked us with learning assembly language for Intel x86 processors. We then used Visual Studio to create a pension calculator.
+                            <p> This program was my submission for a University Assignment. This assignment tasked us with learning assembly language for Intel x86 processors.
                             </p>
                           </div>
                           <div class="card-action grey darken-4">
@@ -215,25 +221,21 @@
                           </div>
                         </div>
                       </div>
-                  </div>
+                </div>
 
                   <h6 style="padding-left: 12px"><u>Swift</u></h6>
                   <p>Coming soon...</p>
             
-
-
-
-
             </div>
         </div>
        
         
 
         <div class="social" style="text-align: center; padding-top: 10px">
-            <a href="https://www.twitter.com/lawlerandrew_"><img src="twitter.png" alt="twitter logo" height="50px" width="50px"/></a>
-            <a href="https://www.instagram.com/andrew.lawler_"><img src="instagram.png" height="50px" width="50px"/></a>
-            <a href="https://www.github.com/AndrewLawler"><img src="github.png" height="50px" width="50px"/></a>
-            <a href="https://www.linkedin.com/in/andrewlawler-io/"><img src="linkedin.png" height="50px" width="50px"/></a>
+            <a href="https://www.twitter.com/lawlerandrew_"><img src="Images/twitter.png" alt="twitter logo" height="50px" width="50px"/></a>
+            <a href="https://www.instagram.com/andrew.lawler_"><img src="Images/instagram.png" height="50px" width="50px"/></a>
+            <a href="https://www.github.com/AndrewLawler"><img src="Images/github.png" height="50px" width="50px"/></a>
+            <a href="https://www.linkedin.com/in/andrewlawler-io/"><img src="Images/linkedin.png" height="50px" width="50px"/></a>
         </div>
 
         <br> 
@@ -242,7 +244,7 @@
               <div class="row">
                 <div class="col l6 s12">
                   <h5 class="white-text">Andrew Lawler</h5>
-                  <p class="grey-text text-lighten-4"> Application Development </p>
+                  <p class="grey-text text-lighten-4"> App Development </p>
                   <p><br><br>Hosted with GitHub Pages</p>
                 </div>
                 <div class="col l4 offset-l2 s12">

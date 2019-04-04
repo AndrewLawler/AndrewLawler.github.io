@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <link rel="stylesheet" href="Style.css">
+      <link rel="stylesheet" href="Style/Style.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -14,8 +14,8 @@
   
         <nav>
             <div class="nav-wrapper grey darken-4">
-              <img src="Logo.png" class="brand-logo" style="padding: 8px" height="60px" width="65px">
-              <a href="Logo.png" class="brand-logo" style="padding-left: 10px"></a>
+              <a href="index.html"><img src="Images/Logo.png" class="brand-logo" style="padding: 8px" height="60px" width="65px"/></a>
+              <!---<a href="Images/Logo.png" class="brand-logo" style="padding-left: 10px"></a>-->
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html">Home</a></li>
@@ -33,44 +33,41 @@
             <li><a style="color: white" href="Blog.html">Blog</a></li>
           </ul>
 
-        <img src="Liverpool4.jpeg" id="HomeImage">
-        <div class="section pointer" id="section1"> 
-        
-        <div style="text-align: center;"> 
-          <a href="#section2" style="text-align: center; color: black"><i class="material-icons">keyboard_arrow_down</i></a>
+        <img src="Images/Liverpool4.jpeg" id="HomeImage">
+
+        <div class="section pointer" id="section1">
+          <div style="text-align: center;"> 
+            <a href="#section2" style="text-align: center; color: black"><i class="material-icons">keyboard_arrow_down</i></a>
+          </div>
         </div>
-        </div>
-        
+        <br>
+        <div class="divider black"></div>
         <div class="container" id="section2">
             <div class="center-align">
-                <h2 style="padding-top: 5px">Andrew Lawler</h2>
-                <br>
-                <div class="row">
+                <h1 style="padding-top: 10px"> Andrew Lawler </h1>
+                <div class="row" style="padding-top: 20px">
                         <div class="col s4">
                             <i class="large material-icons">phone_android</i>
                             <br>
-                            <b>Application Development</b>
-                            <p> Full Applications developed in Python, Java, JavaScript and much more </p>
-                            <br>
+                            <b>App Development</b>
+                            <p> Mobile Apps created using Java and Swift. Web Applications created using React and Django </p>
                         </div>
                         <div class="col s4">
                                 <i class="large material-icons">desktop_windows</i>
                                 <br>
                                 <b>Web Development</b>
-                                <p> Graphically pleasing websites created using HTML,<br> CSS, React, JavaScript and Python</p>
-                                <br>
+                                <p> Graphically pleasing websites created using HTML, CSS, JavaScript and much more </p>
                         </div>
                         <div class="col s4">
                                 <i class="large material-icons">person</i>
                                 <br>
                                 <b>Leadership</b>
                                 <p> Co-Founder of University of Liverpool's <br> Cyber Security Society </p>
-                                <br>
                         </div>
                   </div>
 
                   <p>Want to see more from me? Click below to check out my GitHub Page!<br></p>
-                  <a href="https:www.github.com/AndrewLawler" class="waves-effect waves-light btn black">Click Here!</a>
+                  <a href="https://www.github.com/AndrewLawler" class="waves-effect waves-light btn black">Click Here!</a>
                   <br>
                 
             </div>
@@ -78,33 +75,65 @@
 
         <div id="section3" class="grey darken-4">
           <div class="center-align white-text">
-            <p style="padding:25px">Welcome.<br><br> My Name is Andrew Lawler and I'm a 20 year old Computer Science and Software Development <br> student at the University of Liverpool. I created
-            this site to show some of the skills i have and mainly to<br> act as my personal portfolio. If you explore the site you will find my own personal projects <br> and also see
-            some of the HTML/JS skills i have developed.</p>
+            <h5 style="padding-top: 15px"><u>Who Am I?</u></h5>
+            <p style="padding: 10px">My Name is Andrew Lawler and I'm a 20 year old student who is really passionate about App Development.
+               <br>I study Computer Science and Software Development at The University of Liverpool. The main reason I created
+            this site was to show some of the<br> skills I have learned. As i'm always eager to learn new skills, the site will be used to showcase the projects i've been working on.
         </div>
 
         <div id="section4" class="white">
             <div class="center-align">
-              <br>
-              <!-- Experiences-->
-              <p> Please navigate to the projects page to see all of my current projects. </p>
-              
+              <h5 style="padding-top: 20px; padding-bottom: 10px"><u>Experience</u></h5>
+
+              <div class="row">
+                <div class="col s4 push-s2">
+                    <div class="card small" style="height: 250px; padding: 10px;">
+                        <div class="card-content">
+                          <!----<img src="Images/University.svg" width="300"/>-->
+                          <h4> Logo being approved </h4>
+                          <p><b>Cyber Security Society</b></p>
+                          <p> Founder/Vice President (2018-Present) </p>
+                          <p style="padding-top: 10px"> I help run the Society's Events and I also maintain our Social pages </p>
+                          <a href="https://twitter.com/CyberSocUoL">Twitter</a>
+                        </div>
+                  </div>
+                </div>
+
+                <div class="col s4 push-s2">
+                    <div class="card small" style="height: 250px; padding: 10px">
+                        <div class="card-content">
+                          <img src="Images/Logo.png" width="75"/>
+                          <p><b> Freelancer </b></p>
+                          <p> (2018-Present) </p>
+                          <p style="padding-top: 10px"> I have worked as a Freelance Developer since I learned how to code </p>
+                          <a href="https://www.twitter.com/lawlerandrew_">Twitter</a>
+                        </div>
+                    </div>    
+                </div>
+              </div>
+              <p> As I only started properly programming at University, I always try to learn new skills in my free time to constantly make myself a better programmer. </p>
+              <p> A good example of this is Web Development. I didn't know anything about HTML until I decided I wanted to make a website. Everytime I need to know something else I just learn it. </p>
+              <p> This is a good way to learn as it allows me to actually complete the work and have something to prove that i can do it. </p>
+              <p> I'm always on the look out for more on the job experience. Please never hesitate to contact me if you feel this is something you could offer. </p>
+              <p> If you would like to see some of my work please navigate to the projects page by clicking <a href="Projects.html">here</a>. </p>
+              <p> Finally, if you would like to talk to me about working on a website for you, please contact me through my many social medias below. </p>
+            </div>
+          
+            <div class="social" style="text-align: center; padding-top: 10px;">
+                <a href="https://www.twitter.com/lawlerandrew_"><img src="Images/twitter.png" alt="twitter logo" height="50px" width="50px"/></a>
+                <a href="https://www.instagram.com/andrew.lawler_"><img src="Images/instagram.png" height="50px" width="50px"/></a>
+                <a href="https://www.github.com/AndrewLawler"><img src="Images/github.png" height="50px" width="50px"/></a>
+                <a href="https://www.linkedin.com/in/andrewlawler-io/"><img src="Images/linkedin.png" height="50px" width="50px"/></a>
+            </div>
+            <br> 
           </div>
 
-        <div class="social" style="text-align: center; padding-top: 10px">
-            <a href="https://www.twitter.com/lawlerandrew_"><img src="twitter.png" alt="twitter logo" height="50px" width="50px"/></a>
-            <a href="https://www.instagram.com/andrew.lawler_"><img src="instagram.png" height="50px" width="50px"/></a>
-            <a href="https://www.github.com/AndrewLawler"><img src="github.png" height="50px" width="50px"/></a>
-            <a href="https://www.linkedin.com/in/andrewlawler-io/"><img src="linkedin.png" height="50px" width="50px"/></a>
-        </div>
-
-        <br> 
         <footer class="page-footer grey darken-4">
             <div class="container">
               <div class="row">
                 <div class="col l6 s12">
                   <h5 class="white-text">Andrew Lawler</h5>
-                  <p class="grey-text text-lighten-4"> Application Development </p>
+                  <p class="grey-text text-lighten-4"> App Development </p>
                   <p><br><br>Hosted with GitHub Pages</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
