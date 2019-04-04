@@ -37,7 +37,16 @@
       height: 810px;
       width: 100%;
     }
-}
+  }
+
+  @media  screen and (min-width: 2549px) {
+    #HomeImage {
+      height: 1200px;
+      width: 100%;
+    }
+  }
+
+
 
 #Footer1 {
     width: 100%;
