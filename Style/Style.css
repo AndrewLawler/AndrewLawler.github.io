@@ -12,38 +12,127 @@
 	opacity: .9;
 }
 
+#project {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 400px;
+	opacity: .9;
+}
+
+#about {
+	padding: 0;
+	margin: 0;
+	width: 50%;
+	height: 465px;
+	opacity: .8;
+	float: left;
+}
+
+#abouts {
+	padding: 0;
+	margin: 0;
+	width: 50%;
+	height: 465px;
+	opacity: .8;
+	float: right;
+}
+
+#blog {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 597px;
+	opacity: .9;
+}
+
 @media screen and (min-width: 100px) {
 	#intro {
-		height: 380px;
+		height: 330px;
 		width: 100%;
+	}
+	#about {
+		height: 320px;
+	}
+	#abouts {
+		height: 320px;
+	}
+	#project {
+		height: 335px;
+	}
+	#blog {
+		height: 450px;
 	}
 }
 
 @media screen and (min-width: 1279px) {
 	#intro {
-		height: 450px;
+		height: 67px;
 		width: 100%;
 	}
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1400px) {
 	#intro {
 		height: 450px;
 		width: 100%;
 	}
 }
 
-@media screen and (min-width: 1660px) {
+@media screen and (min-width: 1600px) {
 	#intro {
-		height: 450px;
+		height: 394px;
 		width: 100%;
+	}
+	#about {
+		height: 401px;
+	}
+	#abouts {
+		height: 401px;
+	}
+	#project {
+		height: 343px;
+	}
+	#blog {
+		height: 520px;
+	}
+}
+
+@media screen and (min-width: 1679px) {
+	#intro {
+		height: 417px;
+		width: 100%;
+	}
+	#about {
+		height: 427px;
+	}
+	#abouts {
+		height: 427px;
+	}
+	#project {
+		height: 369px;
+	}
+	#blog {
+		height: 546px;
 	}
 }
 
 @media screen and (min-width: 1850px) {
 	#intro {
-		height: 450px;
+		height: 448px;
 		width: 100%;
+	}
+	#about {
+		height: 457px;
+	}
+	#abouts {
+		height: 457px;
+	}
+	#project {
+		height: 399px;
+	}
+	#blog {
+		height: 576px;
 	}
 }
 
@@ -90,38 +179,4 @@ img {
 #red darken-4 {
 	margin: 0;
 	padding: 0;
-}
-
-#project {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 400px;
-	opacity: .9;
-}
-
-#about {
-	padding: 0;
-	margin: 0;
-	width: 50%;
-	height: 465px;
-	opacity: .8;
-	float: left;
-}
-
-#abouts {
-	padding: 0;
-	margin: 0;
-	width: 50%;
-	height: 465px;
-	opacity: .8;
-	float: right;
-}
-
-#blog {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 597px;
-	opacity: .9;
 }
