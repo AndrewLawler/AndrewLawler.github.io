@@ -48,20 +48,20 @@
 
 @media screen and (min-width: 100px) {
 	#intro {
-		height: 330px;
+		height: 360px;
 		width: 100%;
 	}
 	#about {
-		height: 320px;
+		height: 310px;
 	}
 	#abouts {
-		height: 320px;
+		height: 310px;
 	}
 	#project {
 		height: 335px;
 	}
 	#blog {
-		height: 450px;
+		height: 432px;
 	}
 }
 
