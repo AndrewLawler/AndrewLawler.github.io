@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <link rel="stylesheet" href="Style/Style.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -32,24 +33,31 @@
             <li><a style="color: white" href="Blog.html">Blog</a></li>
           </ul>
      
+
+        <div id="section1" class="grey darken-4" style="text-align: center">
+            <img id="blog" src="Images/fabian-grohs-437907-unsplash.jpg">
+            <p style="font-size: 50px; color: white">Blog</p>
+            <p style="padding: 10px"> Welcome to my Dev blog! Here you will find me talking about anything and everything. </p>
+            <p style="padding-bottom: 10px"> Please feel free to share any of my Blog Posts on Twitter if you enjoy them! </p>
+            <div class="divider"></div>
+            <div class="red darken-4">
+                <div class="container" style="padding: 20px">
+                    <p> Use this menu to navigate through to your desired post. </p>
+                    <p>
+                      <a href="#DesigningMyWebsite">Designing My Website (03/04/19)</a> 
+                    </p> 
+                    <a href="#section2"><i style="padding-top: 10px; color: white" class="small material-icons">keyboard_arrow_down</i></a>
+                </div>
+            </div>
+        </div>
+
         <div class="container" id="section2">
             <div class="center-align">
-                <h1>Blog</h1>
-                
-                <p> Welcome to my Dev blog! Here you will find me talking about anything and everything. </p>
-                <p> Please feel free to share any of my Blog Posts on Twitter if you enjoy them! </p>
-
-                <div class="divider black"></div>
-                <p> Use this menu to navigate through to your desired post. </p>
-                <p>
-                  <a href="#DesigningMyWebsite" style="padding-right: 10px">Designing My Website (03/04/19)</a> 
-                </p> 
 
                 <!-- change publish title depending on name of blog https://publish.twitter.com/?buttonLarge=on&buttonText=Designing%20My%20Website%20-%20Andrew%20Lawler&buttonType=TweetButton&buttonUrl=https%3A%2F%2Fandrewlawler.github.io%2FBlog.html&buttonVia=LawlerAndrew_&widget=Button   -->
-                
-                <div class="divider black"></div>
+
                 <h5 style="padding: 20px" id="DesigningMyWebsite"> Designing my Website </h5>
-                <p>
+                <p style="color: black">
                   When it came to designing my first Personal Website I felt a little scared. I was always used to designing websites as I did it in my free time, but something about designing a site for everyone to
                   see and scrutanise is always scary at first. The first version of my website, looking back on it, was awful. Don't get me wrong, it had everything it needed. It had all of the information this site
                   has but it just didn't look as professional as I would have hoped it would. I used that website, which was deployed with AWS, for around 2 months. After the time had passed I started to get a little
@@ -61,51 +69,35 @@
                   my website looked and this was something I needed to really think about. After a few weeks of messing around and planning, and don't forget (lot's of coding). I finally had a website I could upload.
                   It felt amazing. Everybody loved it, but I was not satisfied. This brings me onto my current website. I have completely changed everything I liked about the site and i've made it a lot better.
                   The once scary concept of a Personal Website is gone and i'm happy for everyone to see what i've managed to make.
-                  <br><br>
-                  <b>03/04/19</b><br><br>
+                  <br>
+                  <p style="font-size: 20px; color: black">03/04/19</b><br>
                   <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Designing My Website - Andrew Lawler" data-url="https://andrewlawler.github.io/Blog.html" data-via="LawlerAndrew_" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </p>
                 <div class="divider black"></div>
-
-                <p> More posts coming very soon. Keep an eye on my social media to see when they will come out! </p>
-
+                <br>
+                <p style="color: black"> More posts coming very soon. Keep an eye on my social media to see when they will come out! </p>
+                <br>
             </div>
         </div>        
 
-        <div class="social" style="text-align: center; padding-top: 10px">
-            <a href="https://www.twitter.com/lawlerandrew_"><img src="Images/twitter.png" alt="twitter logo" height="50px" width="50px"/></a>
-            <a href="https://www.instagram.com/andrew.lawler_"><img src="Images/instagram.png" height="50px" width="50px"/></a>
-            <a href="https://www.github.com/AndrewLawler"><img src="Images/github.png" height="50px" width="50px"/></a>
-            <a href="https://www.linkedin.com/in/andrewlawler-io/"><img src="Images/linkedin.png" height="50px" width="50px"/></a>
+        <div class="divider"></div>
+        <div id="footer" class="grey darken-4">
+            <img src="Images/Logo.png" width="100px" style="border: 2px solid white">
+            <p style="color: white; padding: 8px">
+                <a style="color: white; padding: 8px" href="index.html">Home</a> | 
+                <a style="color: white; padding: 8px" href="AboutMe.html">About Me </a> | 
+                <a style="color: white; padding: 8px" href="Projects.html">Projects</a> | 
+                <a style="color: white; padding: 8px" href="Blog.html">Blog</a>
+            </p>
+            <div class="divider"></div>
+            <p style="color: white; font-size: 18px; padding-top: 8px">
+                <a style="color: white; padding: 8px" href="https://www.twitter.com/lawlerandrew_">Twitter</a> | 
+                <a style="color: white; padding: 8px" href="https://www.instagram.com/andrew.lawler_">Instagram</a> |
+                <a style="color: white; padding: 8px" href="https://www.github.com/AndrewLawler">Github</a> |
+                <a style="color: white; padding: 8px" href="https://www.linkedin.com/in/andrewlawler-io/">linkedin</a> 
+            </p>
+            <p style="padding-top: 15px; font-size: 12px"> Andrew Lawler 2019 | MaterializeCSS | Deployed using Github Pages </p>
         </div>
-
-        <br> 
-        <footer class="page-footer grey darken-4">
-            <div class="container">
-              <div class="row">
-                <div class="col l6 s12">
-                  <h5 class="white-text">Andrew Lawler</h5>
-                  <p class="grey-text text-lighten-4"> App Development </p>
-                  <p><br><br>Hosted with GitHub Pages</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Links</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
-                    <li><a class="grey-text text-lighten-3" href="AboutMe.html">About Me</a></li>
-                    <li><a class="grey-text text-lighten-3" href="Projects.html">Projects</a></li>
-                    <li><a class="grey-text text-lighten-3" href="Blog.html">Blog</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="footer-copyright grey darken-4">
-              <div class="container" stlye="padding-left: 5px"> 
-                <p style="padding-left: 12px"> Andrew Lawler 2019</p>
-              
-              </div>
-            </div>
-          </footer>
 
               <script>
                   $(document).ready(function(){

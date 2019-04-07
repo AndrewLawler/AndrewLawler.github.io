@@ -6,6 +6,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
       <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
       <title>Andrew Lawler - Home</title>
     </head>
@@ -15,7 +16,6 @@
         <nav>
             <div class="nav-wrapper grey darken-4">
               <a href="index.html"><img src="Images/Logo.png" class="brand-logo" style="padding: 8px" height="60px" width="65px"/></a>
-              <!---<a href="Images/Logo.png" class="brand-logo" style="padding-left: 10px"></a>-->
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="index.html">Home</a></li>
@@ -24,172 +24,195 @@
                 <li><a href="Blog.html">Blog</a></li>
               </ul>
             </div>
-          </nav>
+        </nav>
 
-          <ul class="sidenav grey darken-4" id="mobile-demo">
+        <ul class="sidenav grey darken-4" id="mobile-demo">
             <li><a style="color: white" href="index.html">Home</a></li>
             <li><a style="color: white" href="AboutMe.html">About Me</a></li>
             <li><a style="color: white" href="Projects.html">Projects</a></li>
             <li><a style="color: white" href="Blog.html">Blog</a></li>
-          </ul>
+        </ul>  
 
-        <img src="Images/Liverpool4.jpeg" id="HomeImage">
-
-        <div class="section pointer" id="section1">
-          <div style="text-align: center;"> 
-            <a href="#section2" style="text-align: center; color: black"><i class="material-icons">keyboard_arrow_down</i></a>
-          </div>
-        </div>
-        <br>
-        <div class="divider black"></div>
-        <div class="container" id="section2">
-            <div class="center-align">
-                <h1 style="padding-top: 10px"> Andrew Lawler </h1>
-                <div class="row" style="padding-top: 20px">
-                        <div class="col s4">
-                            <i class="large material-icons">phone_android</i>
-                            <br>
-                            <b>App Development</b>
-                            <p> Mobile Apps created using Java and Swift. Web Applications created using React and Django </p>
-                        </div>
-                        <div class="col s4">
-                                <i class="large material-icons">desktop_windows</i>
-                                <br>
-                                <b>Web Development</b>
-                                <p> Graphically pleasing websites created using HTML, CSS, JavaScript and much more </p>
-                        </div>
-                        <div class="col s4">
-                                <i class="large material-icons">person</i>
-                                <br>
-                                <b>Leadership</b>
-                                <p> Co-Founder of University of Liverpool's <br> Cyber Security Society </p>
-                        </div>
-                  </div>
-
-                  <p>Want to see more from me? Click below to check out my GitHub Page!<br></p>
-                  <a href="https://www.github.com/AndrewLawler" class="waves-effect waves-light btn black">Click Here!</a>
-                  <br>
-                
+        <div id="section1" class="grey darken-4" style="text-align: center">
+            <img id="intro" src="Images/fabian-grohs-581927-unsplash.jpg">
+            <div style="padding: 20px">
+                <img src="Images/Logo.png" width="150px" style="border: 2px solid white">
+                <p style="color: white; font-size: 40px"> Andrew Lawler </p>
+                <p style="color: white; font-size: 12px"> App Development | Web Development </p>
+            </div>
+            <div class="divider"></div>
+            <div class="red darken-4">
+                <div class="container" style="padding: 16px">
+                    <p> 
+                        My Name is Andrew Lawler and I'm a 20 year old student who is really passionate about App Development.
+                        I study  Computer Science  and Software <br>Development at The University of Liverpool. The main reason I created this site was to show some of the
+                        skills I have learned. <br>As i'm always eager to learn new skills, the site will be used to showcase the projects i've been working on. 
+                    </p>
+                </div>
+                <p style="font-size: 12px"> Read More </p>
+                <a href="#section2"><i style="color: white" class="small material-icons">keyboard_arrow_down</i></a>
             </div>
         </div>
 
-        <div id="section3" class="grey darken-4">
-          <div class="center-align white-text">
-            <h5 style="padding-top: 15px"><u>Who Am I?</u></h5>
-            <p style="padding: 10px">My Name is Andrew Lawler and I'm a 20 year old student who is really passionate about App Development.
-               <br>I study Computer Science and Software Development at The University of Liverpool. The main reason I created
-            this site was to show some of the<br> skills I have learned. As i'm always eager to learn new skills, the site will be used to showcase the projects i've been working on.
-        </div>
+        <div class="white" style="color: black; text-align: center">
+            <div id="section2" style="padding: 5px"></div>
+            <p style="color: black; font-size: 50px"> Projects </p>
+            <p style="color: black; font-size: 17px"><u>Top Projects </u></p>
+            <p style="color: black; font-size: 12px; padding: 10px"> Below you will find some of my projects so you can get a taste for what I'm working on. </p>
 
-        <div id="section4" class="white">
-          <div class="container">
-            <div class="center-align">
-              <h5 style="padding-top: 20px; padding-bottom: 10px"><u>Experience</u></h5>
-        
-              <div class="row" style="padding-top: 10px">
+            <div style="padding-top:5px;">
+                <div class="container">
+                  <div class="center-align">
+                        <div class="row">
+                            <div class="col s12 m4">
+                                <div class="card medium">
+                                  <div class="card-image">
+                                    <img src="Images/Comp122.png">
+                                  </div>
+                                  <div class="card-content" style="padding-top: 5px">
+                                    <b><u> COMP-122 Assignment 1</u></b>
+                                    <p style="color: black; font-size: 12px"> This was the first assignment I had for my Java module at University. This assignment taught us how to use inheritence to shorten our code.
+                                    </p>
+                                  </div>
+                                  <div class="card-action grey darken-4">
+                                    <a href="https://github.com/AndrewLawler/Comp-122-As1">GitHub Page</a>
+                                  </div>
+                                </div>
+                            </div>
 
-                  <div class="col s12 m6">
-                    <div class="card medium" style="height: 250px">
-                      <div class="card-content" style="padding-top: 10px">
-                        <!--<img src="Images/University.svg" width="77%"/>-->
-                        <h2> being approved </h2>
-                        <p><b>Cyber Security Society</b></p>
-                        <p> Founder/Vice President (2018-Present) </p>
-                        <p style="padding-top: 10px"> I help run the Society's Events and I also maintain our Social pages </p>
-                        <a href="https://twitter.com/CyberSocUoL">Twitter</a>
-                      </div>
+                            <div class="col s12 m4">
+                              <div class="card medium">
+                                <div class="card-image">
+                                  <img src="Images/Todo List.png">
+                                </div>
+                                <div class="card-content" style="padding-top: 5px">
+                                  <b><u> React Todo App </u></b>
+                                  <p style="color: black; font-size: 12px"> I wanted to create my first React app and start learning about the library. I followed a course online and created this app.
+                                  </p>
+                                </div>
+                                <div class="card-action grey darken-4">
+                                  <a href="https://github.com/AndrewLawler/React-Todo">GitHub Page</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col s12 m4">
+                                    <div class="card medium">
+                                      <div class="card-image">
+                                        <img src="Images/Web.jpg" height="400px">
+                                      </div>
+                                      <div class="card-content" style="padding-top: 5px">
+                                        <b><u> Personal Website </u></b>
+                                        <p style="color: black; font-size: 12px"> I wanted to learn more about HTML and CSS so I decided to build my own website. This website took around 2 days to make and it holds all my projects and information.
+                                        </p>
+                                      </div>
+                                      <div class="card-action grey darken-4">
+                                        <a href="https://github.com/AndrewLawler/andrewlawler.github.io">GitHub Page</a>
+                                      </div>
+                                    </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <a href="Projects.html" class="waves-effect red darken-4 btn-large">Projects</a>
+            <p style="color: black; font-size: 15px; padding-top: 15px; padding-bottom: 30px"> Click above to check out the rest of my projects </p>
+        </div>
 
-                  <div class="col s12 m6">
-                      <div class="card medium" style="height: 250px">
-                        <div class="card-content" style="padding-top: 10px">
-                          <img src="Images/Logo.png" width="20%"/>
-                          <p><b> Freelancer </b></p>
-                          <p> (2018-Present) </p>
-                          <p style="padding-top: 10px"> I have worked as a Freelance Developer since I learned how to code </p>
-                          <a href="https://www.twitter.com/lawlerandrew_">Twitter</a>
+        <div class="grey darken-4" style="text-align: center; padding-bottom: 1px">
+                <div class="container">
+                    <p style="font-size: 50px; padding-top: 5px"> Experience </p>
+                    <div class="center-align">
+                        <div class="row" style="padding-top: 10px; padding-bottom: 20px">
+                            <div class="col s12 m6">
+                                <div class="card medium" style="height: 250px">
+                                    <div class="card-content" style="padding-top: 10px">
+                                      <h2>Being Changed</h2>
+                                      <!--<img src="Images/University.svg" width="77%"/>-->
+                                      <p style="color: black"><b>Cyber Security Society</b></p>
+                                      <p style="color: black"> Founder/Vice President (2018-Present) </p>
+                                      <p style="color: black; padding-top: 10px"> I help run the Society's Events and I also maintain our Social pages </p>
+                                      <a href="https://twitter.com/CyberSocUoL">Twitter</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m6">
+                                <div class="card medium" style="height: 250px">
+                                    <div class="card-content" style="padding-top: 10px">
+                                        <img src="Images/Logo.png" width="20%"/>
+                                        <p style="color: black"><b> Freelancer </b></p>
+                                        <p style="color: black"> (2018-Present) </p>
+                                        <p style="color: black; padding-top: 10px"> I have worked as a Freelance Developer since I learned how to code </p>
+                                        <a href="https://www.twitter.com/lawlerandrew_">Twitter</a>
+                                      </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-            
-              <div class="container" style="text-align: center">
-                <p> As I only started properly programming at University, I always try to learn new skills in my free time to constantly make myself a better programmer. </p>
-                <p> A good example of this is Web Development. I didn't know anything about HTML until I decided I wanted to make a website. Everytime I need to know something else I just learn it. </p>
-                <p> This is a good way to learn as it allows me to actually complete the work and have something to prove that i can do it. </p>
-                <p> I'm always on the look out for more on the job experience. Please never hesitate to contact me if you feel this is something you could offer. </p>
-                <p> If you would like to see some of my work please navigate to the projects page by clicking <a href="Projects.html">here</a>. </p>
-                <p> Finally, if you would like to talk to me about working on a website for you, please contact me through my many social medias below. </p>
-              </div>
-          
-            <div class="social" style="text-align: center; padding-top: 10px;">
-                <a href="https://www.twitter.com/lawlerandrew_"><img src="Images/twitter.png" alt="twitter logo" height="50px" width="50px"/></a>
-                <a href="https://www.instagram.com/andrew.lawler_"><img src="Images/instagram.png" height="50px" width="50px"/></a>
-                <a href="https://www.github.com/AndrewLawler"><img src="Images/github.png" height="50px" width="50px"/></a>
-                <a href="https://www.linkedin.com/in/andrewlawler-io/"><img src="Images/linkedin.png" height="50px" width="50px"/></a>
-            </div>
-            <br> 
-          </div>
-
-        <footer class="page-footer grey darken-4">
-            <div class="container">
-              <div class="row">
-                <div class="col l6 s12">
-                  <h5 class="white-text">Andrew Lawler</h5>
-                  <p class="grey-text text-lighten-4"> App Development </p>
-                  <p><br><br>Hosted with GitHub Pages</p>
+                    </div>
                 </div>
-                <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Links</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
-                    <li><a class="grey-text text-lighten-3" href="AboutMe.html">About Me</a></li>
-                    <li><a class="grey-text text-lighten-3" href="Projects.html">Projects</a></li>
-                    <li><a class="grey-text text-lighten-3" href="Blog.html">Blog</a></li>
-                  </ul>
-                </div>
-              </div>
+        </div>
+        <div class="divider"></div>
+        <div class="red darken-4" style="padding: 20px">
+            <div class="container" style="text-align: center">
+                <p style="padding: 7px"> As I only started properly programming at University, I always try to learn new skills in my free time to constantly make myself a better programmer. </p>
+                <p style="padding: 7px"> A good example of this is Web Development. I didn't know anything about HTML until I decided I wanted to make a website. Everytime I need to know something else I just learn it. </p>
+                <p style="padding: 7px"> This is a good way to learn as it allows me to actually complete the work and have something to prove that i can do it. </p>
+                <p style="padding: 7px"> I'm always on the look out for more on the job experience. Please never hesitate to contact me if you feel this is something you could offer. </p>
+                <p style="padding: 7px"> If you would like to see some of my work please navigate to the projects page by clicking <a href="Projects.html">here</a>. </p>
+                <p style="padding: 7px"> Finally, if you would like to talk to me about working on a website for you, please contact me through my many social medias below. </p>
             </div>
-            <div class="footer-copyright grey darken-4">
-              <div class="container" stlye="padding-left: 5px"> 
-                <p style="padding-left: 12px"> Andrew Lawler 2019</p>
-              
-              </div>
-            </div>
-          </footer>
-
-              <script>
-                  $(document).ready(function(){
-                    $("a").on('click', function(event) {
-                      if (this.hash !== "") {
-                        event.preventDefault();
-                        var hash = this.hash;
-                        $('html, body').animate({
-                          scrollTop: $(hash).offset().top
-                        }, 800, function(){
-                          window.location.hash = hash;
-                        });
-                      } 
-                    });
-                  });
-                  </script>
-
-                <script>
-                  document.addEventListener('DOMContentLoaded', function() {
-                    var elems = document.querySelectorAll('.sidenav');
-                    var instances = M.Sidenav.init(elems, options);
-                  });
-
-                  // Or with jQuery
-
-                  $(document).ready(function(){
-                    $('.sidenav').sidenav();
-                  });
-                </script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        </div>
+        <div class="divider"></div>
+        <div id="footer" class="grey darken-4">
+            <img src="Images/Logo.png" width="100px" style="border: 2px solid white">
+            <p style="color: white; padding: 8px">
+                <a style="color: white; padding: 8px" href="index.html">Home</a> | 
+                <a style="color: white; padding: 8px" href="AboutMe.html">About Me </a> | 
+                <a style="color: white; padding: 8px" href="Projects.html">Projects</a> | 
+                <a style="color: white; padding: 8px" href="Blog.html">Blog</a>
+            </p>
+            <div class="divider"></div>
+            <p style="color: white; font-size: 18px; padding-top: 8px">
+                <a style="color: white; padding: 8px" href="https://www.twitter.com/lawlerandrew_">Twitter</a> | 
+                <a style="color: white; padding: 8px" href="https://www.instagram.com/andrew.lawler_">Instagram</a> |
+                <a style="color: white; padding: 8px" href="https://www.github.com/AndrewLawler">Github</a> |
+                <a style="color: white; padding: 8px" href="https://www.linkedin.com/in/andrewlawler-io/">linkedin</a> 
+            </p>
+            <p style="padding-top: 15px; font-size: 12px"> Andrew Lawler 2019 | MaterializeCSS | Deployed using Github Pages </p>
+        </div>
+  
     </body>
+
+    <script>
+            $(document).ready(function(){
+              $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                  event.preventDefault();
+                  var hash = this.hash;
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+                    window.location.hash = hash;
+                  });
+                } 
+              });
+            });
+            </script>
+
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var elems = document.querySelectorAll('.sidenav');
+              var instances = M.Sidenav.init(elems, options);
+            });
+
+            // Or with jQuery
+
+            $(document).ready(function(){
+              $('.sidenav').sidenav();
+            });
+    </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+
   </html>
