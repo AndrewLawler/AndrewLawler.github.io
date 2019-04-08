@@ -8,8 +8,8 @@
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 450px;
-	opacity: .9;
+	height: 400px;
+	opacity: .7;
 }
 
 #project {
@@ -49,7 +49,6 @@
 @media screen and (min-width: 100px) {
 	#intro {
 		height: 340px;
-		width: 100%;
 	}
 	#about {
 		height: 300px;
@@ -68,21 +67,18 @@
 @media screen and (min-width: 1279px) {
 	#intro {
 		height: 67px;
-		width: 100%;
 	}
 }
 
 @media screen and (min-width: 1400px) {
 	#intro {
 		height: 450px;
-		width: 100%;
 	}
 }
 
 @media screen and (min-width: 1600px) {
 	#intro {
 		height: 394px;
-		width: 100%;
 	}
 	#about {
 		height: 401px;
@@ -101,7 +97,6 @@
 @media screen and (min-width: 1679px) {
 	#intro {
 		height: 417px;
-		width: 100%;
 	}
 	#about {
 		height: 427px;
@@ -119,8 +114,7 @@
 
 @media screen and (min-width: 1850px) {
 	#intro {
-		height: 448px;
-		width: 100%;
+		height: 473px;
 	}
 	#about {
 		height: 457px;
@@ -139,7 +133,6 @@
 @media screen and (min-width: 2560px) {
 	#intro {
 		height: 450px;
-		width: 100%;
 	}
 }
 
