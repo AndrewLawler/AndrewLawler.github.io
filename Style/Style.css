@@ -48,14 +48,14 @@
 
 @media screen and (min-width: 100px) {
 	#intro {
-		height: 360px;
+		height: 340px;
 		width: 100%;
 	}
 	#about {
-		height: 310px;
+		height: 300px;
 	}
 	#abouts {
-		height: 310px;
+		height: 300px;
 	}
 	#project {
 		height: 335px;
